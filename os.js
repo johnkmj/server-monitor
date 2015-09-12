@@ -6,7 +6,7 @@
 */
 
 var os = require("os");
-function getStats() {
+function sysstats() {
 //craft the return
 	var stats = 'The '
 		+ os.platform()
